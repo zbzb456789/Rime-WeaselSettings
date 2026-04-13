@@ -1,4 +1,4 @@
-本程序的作用是在windows上给rime做的界面配置器，界面设计参考的搜狗五笔。同时使用以下几位大佬仓库的部分内容：
+本程序的作用是在windows上给rime做的界面配置器，界面设计参考的搜狗五笔。同时使用以下几位大佬仓库的内容：
 
       1、Rime官网：https://rime.im/     https://github.com/rime
       
