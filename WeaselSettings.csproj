@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net10.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<ApplicationManifest>app.manifest</ApplicationManifest>
+		<ApplicationIcon>weasel.ico</ApplicationIcon>
+
+
+		<PublishAot>True</PublishAot>
+		<_SuppressWinFormsTrimError>true</_SuppressWinFormsTrimError>
+		<!-- winform启用裁剪 -->
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="weasel.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="YamlDotNet" Version="16.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<TrimmerRootAssembly Include="System.Windows.Forms" />
+		<TrimmerRootAssembly Include="System.Linq.Expressions" />
+	</ItemGroup>
+
+
+</Project>
