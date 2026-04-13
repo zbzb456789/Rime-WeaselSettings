@@ -6,7 +6,7 @@
       
       3、五笔小筑：http://98wb.ysepan.com
 
-本程序了修改weasel、librime来实现，去除所有lua插件，全部使用C++插件实现来提升运行速度。具体逻辑请参照下面视频：
+本程序了修改weasel、librime来实现，在仓库内下载。去除所有lua插件，全部使用C++插件实现来提升运行速度。具体逻辑请参照下面视频：
 
 视频相关文件说明下载地址：https://wwbao.lanzouq.com/b00hrn5mef  密码:rime   内含安装程序可以直接安装
 
